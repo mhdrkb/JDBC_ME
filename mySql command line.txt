@@ -1,0 +1,9 @@
+mysql> clear
+mysql> show databases;
+mysql> create database bangladesh;
+mysql> use bangladesh;
+mysql> show tables;
+mysql> create table dhaka(id int(11) primary key, name varchar(25));
+mysql> insert into dhaka (id,name) values(1,'Dhanmondi');
+mysql> select * form dhaka;
+mysql> update dhaka set name ='mohammadpur' where id=2;
